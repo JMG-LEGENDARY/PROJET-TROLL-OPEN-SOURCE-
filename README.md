@@ -24,6 +24,6 @@ autres fonctionnalités possibles:
 
 
 
-#ajoutez vos idées.
+# ajoutez vos idées.
 Les chatbots ne sont pas autorisées (elles vont faire de la merde car c'est illégal)
 Cependant, la completion de texte est autorisée pour aller plus vite du moment que c'est ce que vous alliez taper et que votre modèle tourne de préférence en local ou au moins qu'il ne soit pas censuré.
