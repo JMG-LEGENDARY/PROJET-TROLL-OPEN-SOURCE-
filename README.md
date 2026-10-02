@@ -10,11 +10,8 @@ explications :
         sounds() va jouer les sons au volume maximum et en boucle.
         screen() va afficher une plaque noire tout devant le reste avec pk pas un message empechant toute intéraction avec le bureau ou les applications
         regedit() va s'occuper de modifier les registres pour lancer main.py au démarrage du pc (avant même la session)
-        isolation() va couper et ejecter en boucle tous les périfériques, sauf la carte son, de sorte à ne pas pouvoir intéragir à partir d'une clé externe, il devra aussi couper le wifi et le partage d'écran pour éviter les commandes SSH
-
+        isolation() va couper et ejecter en boucle tous les périfériques, sauf la carte son, de sorte à ne pas pouvoir intéragir à partir d'une clé externe, il devra aussi couper le wifi et le partage d'écran pour éviter les commandes SSH  
         pour le fun on peut aussi ajouter sript qui sature la mémoire et le processeur pour faire ramer le pc pour chaque essai de désactivation, mais c'est à lancer en dernier pour éviter que le virus ne se lance pas bien.
-
-
     le fichier block_keyboard.ahk va empêcher l'utilisation du clavier. ATTENTION, les raccourcis comme ctrl+alt+sup sont géré depuis le noyau et très difficilent à couper
     un fichier .bat ou en rust va devoir être appelé en premier pour virer le win defender et le gestionnaire des taches
     un autre fichier (c'est jouable en python) devra s'occuper de vérifier l'installation et devra pouvoir cloner les fichiers installés pour les réinstaller à d'autres endroits pour complexifier la désinstallation ATTENTION WINDEFENDER DEVRA ETRE DESACTIVE SINON LE PROGRAMME VA SE FAIRE DEGAGE !!!
